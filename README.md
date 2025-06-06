@@ -72,18 +72,18 @@ learnify-ui-demo/
 
 1. **Clone o repositório**
 ```bash
-git clone <url-do-repositorio>
-cd learnify-ui-demo
+git clone https://github.com/KaiqueCovo/learnify-ui.git
+cd learnify-ui
 ```
 
 2. **Instale as dependências**
 ```bash
-bun install
+npm install
 ```
 
 3. **Execute o projeto em modo de desenvolvimento**
 ```bash
-bun run dev
+npm run dev
 ```
 
 4. **Acesse a aplicação**
@@ -91,11 +91,11 @@ Abra seu navegador em `http://localhost:5173`
 
 ### Scripts Disponíveis
 
-- `bun run dev` - Inicia o servidor de desenvolvimento
-- `bun run build` - Cria build de produção
-- `bun run build:dev` - Cria build de desenvolvimento
-- `bun run lint` - Executa o linter ESLint
-- `bun run preview` - Visualiza o build de produção
+- `npm run dev` - Inicia o servidor de desenvolvimento
+- `npm run build` - Cria build de produção
+- `npm run build:dev` - Cria build de desenvolvimento
+- `npm run lint` - Executa o linter ESLint
+- `npm run preview` - Visualiza o build de produção
 
 ## 📱 Páginas e Funcionalidades
 
@@ -165,28 +165,13 @@ Configurado para processar Tailwind CSS e autoprefixer.
 
 ### Build de Produção
 ```bash
-bun run build
+npm run build
 ```
 
 ### Visualizar Build
 ```bash
-bun run preview
+npm run preview
 ```
 
 Os arquivos de build são gerados em `dist/` e estão prontos para deploy em qualquer servidor estático.
 
-## 🤝 Contribuição
-
-1. Faça um fork do projeto
-2. Crie sua feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-## 📄 Licença
-
-Este projeto é um demo/demonstração e está disponível para fins educacionais e de aprendizado.
-
----
-
-Desenvolvido com ❤️ usando React, TypeScript e Tailwind CSS
