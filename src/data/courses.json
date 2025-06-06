@@ -1,0 +1,282 @@
+
+[
+  {
+    "id": "1",
+    "title": "React Development Fundamentals",
+    "description": "Domine React do zero com projetos práticos e aplicações do mundo real. Aprenda padrões modernos do React, hooks, gerenciamento de estado e melhores práticas de desenvolvimento.",
+    "instructor": {
+      "name": "Kaique Covo",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "bio": "Desenvolvedor Full Stack Sênior com mais de 8 anos de experiência em empresas de tecnologia. Especialista em React e contribuidor ativo em projetos open-source.",
+      "rating": 4.9,
+      "courses": 12,
+      "experience": "8+ anos",
+      "specialties": ["React", "TypeScript", "Next.js", "Node.js"]
+    },
+    "thumbnail": "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=250&fit=crop",
+    "duration": 20,
+    "level": "beginner",
+    "price": 199.90,
+    "originalPrice": 299.90,
+    "discount": 33,
+    "rating": 4.8,
+    "studentsCount": 1250,
+    "category": "Programming",
+    "tags": ["React", "JavaScript", "Frontend", "Web Development"],
+    "features": ["Acesso vitalício", "Certificado de conclusão", "Garantia de 30 dias", "Acesso mobile", "Suporte do instrutor"],
+    "requirements": ["Basic JavaScript knowledge", "Computer with internet connection"],
+    "learningOutcomes": [
+      "Build dynamic web applications with React",
+      "Understand React hooks and state management", 
+      "Create reusable components",
+      "Deploy React applications"
+    ],
+    "modules": [
+      {
+        "title": "Introduction to React",
+        "lessons": ["What is React?", "Setting up development environment", "Creating your first component"],
+        "duration": 3
+      },
+      {
+        "title": "Components and JSX",
+        "lessons": ["Understanding JSX", "Props and state", "Event handling"],
+        "duration": 4
+      },
+      {
+        "title": "React Hooks",
+        "lessons": ["useState hook", "useEffect hook", "Custom hooks"],
+        "duration": 5
+      },
+      {
+        "title": "Advanced Concepts",
+        "lessons": ["Context API", "Error boundaries", "Performance optimization"],
+        "duration": 8
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "title": "UI/UX Design Mastery",
+    "description": "Learn professional UI/UX design principles and create stunning user interfaces that convert.",
+    "instructor": {
+      "name": "Carlos Rodriguez",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+      "bio": "Design Director with 10+ years creating digital experiences for Fortune 500 companies.",
+      "rating": 4.9,
+      "courses": 8
+    },
+    "thumbnail": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=250&fit=crop",
+    "duration": 15,
+    "level": "intermediate",
+    "price": 149.90,
+    "rating": 4.7,
+    "studentsCount": 890,
+    "category": "Design",
+    "features": ["Lifetime access", "Certificate of completion", "Design resources included", "1-on-1 mentorship"],
+    "requirements": ["Basic computer skills", "Design software (Figma recommended)"],
+    "learningOutcomes": [
+      "Master design principles and color theory",
+      "Create wireframes and prototypes",
+      "Design responsive user interfaces",
+      "Conduct user research and testing"
+    ],
+    "modules": [
+      {
+        "title": "Design Fundamentals",
+        "lessons": ["Design principles", "Color theory", "Typography"],
+        "duration": 4
+      },
+      {
+        "title": "User Research",
+        "lessons": ["User personas", "User journey mapping", "Usability testing"],
+        "duration": 5
+      },
+      {
+        "title": "Interface Design",
+        "lessons": ["Wireframing", "Prototyping", "Design systems"],
+        "duration": 6
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "title": "Digital Marketing Strategy",
+    "description": "Build comprehensive digital marketing campaigns that drive results and grow your business.",
+    "instructor": {
+      "name": "Ana Ferreira",
+      "avatar": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+      "bio": "Marketing Director with expertise in growth marketing and digital strategy for startups and enterprises.",
+      "rating": 4.8,
+      "courses": 6
+    },
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=250&fit=crop",
+    "duration": 12,
+    "level": "beginner",
+    "price": 0,
+    "rating": 4.6,
+    "studentsCount": 2150,
+    "category": "Marketing",
+    "features": ["Free course", "Certificate of completion", "Marketing templates", "Community access"],
+    "requirements": ["Basic business understanding"],
+    "learningOutcomes": [
+      "Develop digital marketing strategies",
+      "Master social media marketing",
+      "Create effective ad campaigns",
+      "Measure and optimize performance"
+    ],
+    "modules": [
+      {
+        "title": "Marketing Fundamentals",
+        "lessons": ["Digital marketing overview", "Target audience analysis", "Marketing funnels"],
+        "duration": 3
+      },
+      {
+        "title": "Social Media Marketing",
+        "lessons": ["Platform strategies", "Content creation", "Community management"],
+        "duration": 4
+      },
+      {
+        "title": "Paid Advertising",
+        "lessons": ["Google Ads", "Facebook Ads", "Campaign optimization"],
+        "duration": 5
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "title": "Python Programming Complete Course",
+    "description": "Learn Python programming from beginner to advanced with real-world projects and applications.",
+    "instructor": {
+      "name": "Roberto Lima",
+      "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+      "bio": "Senior Software Engineer and Python expert with 12+ years of experience in backend development.",
+      "rating": 4.9,
+      "courses": 15
+    },
+    "thumbnail": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400&h=250&fit=crop",
+    "duration": 35,
+    "level": "beginner",
+    "price": 299.90,
+    "rating": 4.9,
+    "studentsCount": 3200,
+    "category": "Programming",
+    "features": ["Lifetime access", "Certificate of completion", "Source code included", "Job placement assistance"],
+    "requirements": ["No prior programming experience needed"],
+    "learningOutcomes": [
+      "Master Python syntax and concepts",
+      "Build web applications with Django",
+      "Work with databases and APIs",
+      "Deploy applications to production"
+    ],
+    "modules": [
+      {
+        "title": "Python Basics",
+        "lessons": ["Variables and data types", "Control structures", "Functions"],
+        "duration": 8
+      },
+      {
+        "title": "Object-Oriented Programming",
+        "lessons": ["Classes and objects", "Inheritance", "Polymorphism"],
+        "duration": 6
+      },
+      {
+        "title": "Web Development",
+        "lessons": ["Django framework", "Database integration", "REST APIs"],
+        "duration": 12
+      },
+      {
+        "title": "Advanced Topics",
+        "lessons": ["Testing", "Deployment", "Performance optimization"],
+        "duration": 9
+      }
+    ]
+  },
+  {
+    "id": "5",
+    "title": "Business Strategy & Leadership",
+    "description": "Develop essential business strategy and leadership skills to drive organizational success.",
+    "instructor": {
+      "name": "Patricia Oliveira",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face",
+      "bio": "Former Fortune 500 executive and business consultant specializing in strategic planning and leadership development.",
+      "rating": 4.8,
+      "courses": 5
+    },
+    "thumbnail": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&h=250&fit=crop",
+    "duration": 18,
+    "level": "intermediate",
+    "price": 199.90,
+    "rating": 4.7,
+    "studentsCount": 750,
+    "category": "Business",
+    "features": ["Lifetime access", "Certificate of completion", "Business templates", "Peer networking"],
+    "requirements": ["Basic business experience recommended"],
+    "learningOutcomes": [
+      "Develop strategic thinking skills",
+      "Lead high-performing teams",
+      "Make data-driven decisions",
+      "Drive organizational change"
+    ],
+    "modules": [
+      {
+        "title": "Strategic Planning",
+        "lessons": ["SWOT analysis", "Competitive analysis", "Strategic frameworks"],
+        "duration": 6
+      },
+      {
+        "title": "Leadership Principles",
+        "lessons": ["Leadership styles", "Team motivation", "Conflict resolution"],
+        "duration": 7
+      },
+      {
+        "title": "Execution & Management",
+        "lessons": ["Project management", "Performance metrics", "Change management"],
+        "duration": 5
+      }
+    ]
+  },
+  {
+    "id": "6",
+    "title": "Data Science with Machine Learning",
+    "description": "Master data science concepts and machine learning algorithms to solve real-world problems.",
+    "instructor": {
+      "name": "Dr. Miguel Costa",
+      "avatar": "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?w=150&h=150&fit=crop&crop=face",
+      "bio": "PhD in Computer Science and Senior Data Scientist with expertise in ML and AI at leading tech companies.",
+      "rating": 4.9,
+      "courses": 10
+    },
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&h=250&fit=crop",
+    "duration": 40,
+    "level": "advanced",
+    "price": 399.90,
+    "rating": 4.9,
+    "studentsCount": 580,
+    "category": "Programming",
+    "features": ["Lifetime access", "Certificate of completion", "Jupyter notebooks", "Capstone project"],
+    "requirements": ["Python programming knowledge", "Basic statistics background"],
+    "learningOutcomes": [
+      "Apply machine learning algorithms",
+      "Perform data analysis and visualization",
+      "Build predictive models",
+      "Deploy ML models to production"
+    ],
+    "modules": [
+      {
+        "title": "Data Analysis Fundamentals",
+        "lessons": ["Pandas and NumPy", "Data cleaning", "Exploratory data analysis"],
+        "duration": 10
+      },
+      {
+        "title": "Machine Learning Basics",
+        "lessons": ["Supervised learning", "Unsupervised learning", "Model evaluation"],
+        "duration": 12
+      },
+      {
+        "title": "Advanced ML Techniques",
+        "lessons": ["Deep learning", "Neural networks", "Natural language processing"],
+        "duration": 18
+      }
+    ]
+  }
+]

@@ -1,0 +1,55 @@
+
+[
+  {
+    "id": "1",
+    "type": "completed",
+    "courseId": "1",
+    "courseTitle": "React Development Fundamentals",
+    "date": "2024-03-20",
+    "progress": 100,
+    "timeSpent": "12h 30min"
+  },
+  {
+    "id": "2",
+    "type": "certificate",
+    "courseId": "1",
+    "courseTitle": "React Development Fundamentals",
+    "date": "2024-03-21",
+    "credentialId": "CERT-REACT-2024-001"
+  },
+  {
+    "id": "3",
+    "type": "enrolled",
+    "courseId": "3",
+    "courseTitle": "Digital Marketing Strategy",
+    "date": "2024-03-15",
+    "progress": 65,
+    "timeSpent": "8h 45min"
+  },
+  {
+    "id": "4",
+    "type": "started",
+    "courseId": "5",
+    "courseTitle": "Python for Data Science",
+    "date": "2024-03-10",
+    "progress": 25,
+    "timeSpent": "3h 15min"
+  },
+  {
+    "id": "5",
+    "type": "completed",
+    "courseId": "4",
+    "courseTitle": "TypeScript and Advanced React Patterns",
+    "date": "2024-02-28",
+    "progress": 100,
+    "timeSpent": "18h 20min"
+  },
+  {
+    "id": "6",
+    "type": "certificate",
+    "courseId": "4",
+    "courseTitle": "TypeScript and Advanced React Patterns",
+    "date": "2024-03-01",
+    "credentialId": "CERT-TS-2024-002"
+  }
+]
