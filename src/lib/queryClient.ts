@@ -9,8 +9,8 @@ export const queryClient = new QueryClient({
       // Garbage collection após 10 minutos
       gcTime: 10 * 60 * 1000,
       // Retry apenas em caso de erro de rede
-      retry: (failureCount, error: any) => {
-        if (error?.status === 404) return false;
+      retry: (failureCount, error: unknown) => {
+        if (error && typeof error === 'object' && 'status' in error && error.status === 404) return false;
         return failureCount < 3;
       },
       // Refetch em focus para dados críticos
@@ -63,10 +63,10 @@ export const updateCourseProgressOptimistically = (courseId: string, progress: n
   queryClient.setQueryData(['courseProgress', courseId], progress);
   
   // Atualizar dados do usuário se necessário
-  queryClient.setQueryData(['currentUser'], (oldData: any) => {
+  queryClient.setQueryData(['currentUser'], (oldData: unknown) => {
     if (!oldData) return oldData;
     return {
-      ...oldData,
+      ...(oldData as Record<string, unknown>),
       // Atualizar progresso nos dados do usuário
     };
   });
